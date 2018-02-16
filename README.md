@@ -15,5 +15,6 @@ Password: vagrant
 # What's inside
 
 - Swift 4.0.3
+- Xfce4
 - Firefox
 - Atom editor with Swift plugins
