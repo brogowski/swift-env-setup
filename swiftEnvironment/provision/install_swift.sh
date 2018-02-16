@@ -8,13 +8,13 @@ sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-3.6
 
 
 # Download Swift toolchain
-wget https://swift.org/builds/swift-3.0.2-release/ubuntu1404/swift-3.0.2-RELEASE/swift-3.0.2-RELEASE-ubuntu14.04.tar.gz \
-  -O /tmp/swift-3.0.2-RELEASE-ubuntu14.04.tar.gz
+wget https://swift.org/builds/swift-4.0.3-release/ubuntu1404/swift-4.0.3-RELEASE/swift-4.0.3-RELEASE-ubuntu14.04.tar.gz \
+  -O /tmp/swift-4.0.3-RELEASE-ubuntu14.04.tar.gz
 
 # Unpack and install swift
 cd /tmp
-tar -zxvf swift-3.0.2-RELEASE-ubuntu14.04.tar.gz
-mv swift-3.0.2-RELEASE-ubuntu14.04 /home/vagrant/swift-3.0.2
+tar -zxvf swift-4.0.3-RELEASE-ubuntu14.04.tar.gz
+mv swift-4.0.3-RELEASE-ubuntu14.04 /home/vagrant/swift-4.0.3
 
 # Setup environment
-echo 'export PATH="${PATH}:/home/vagrant/swift-3.0.2/usr/bin"' >> /home/vagrant/.bashrc
+echo 'export PATH="${PATH}:/home/vagrant/swift-4.0.3/usr/bin"' >> /home/vagrant/.bashrc
